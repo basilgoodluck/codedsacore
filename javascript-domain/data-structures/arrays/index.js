@@ -30,7 +30,17 @@ class Array {
     delete(index){
         this.array.splice(index, 1)
     }
-    slice(){
-        
+    slice(...key){
+        switch(key.length){
+            case 2:
+                return this.array.slice(key[0], key[1])
+            case 1:
+                return this.array.slice(key[0])
+            case 0:
+                return this.array.slice()
+            default:
+                break
+        }         
     }
 }
+
