@@ -38,7 +38,7 @@ For each data structure, implement the specified operations and analyze their ti
 - **Operations to Implement:**
   - `concat`: Combine two strings (O(n)).
   - `substring` / `slice`: Extract a portion of the string (O(n)).
-  - `lengthwachn`: Return the string length (O(1)).
+  - `length`: Return the string length (O(1)).
   - `indexOf` / `find`: Find the index of a substring (O(n*m)).
   - `replace`: Replace a substring with another (O(n)).
   - `split`: Split into an array based on a delimiter (O(n)).
